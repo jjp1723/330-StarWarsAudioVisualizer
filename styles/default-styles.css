@@ -1,0 +1,55 @@
+body
+{
+	background-image: url("../media/png/Starfield.png");
+	font-family: 'Orbitron', sans-serif;
+    color:white;
+}
+
+canvas
+{
+	margin: 1rem;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	background: #fafafa;
+}
+
+#controls
+{
+    margin-left: 2rem;
+}
+
+#volumeLabel
+{
+    margin-left: 1rem;
+}
+
+section
+{
+    margin-bottom: 1rem;
+}
+
+.checkbox
+{
+    margin-left: 3rem;
+}
+
+#playButton
+{
+    font-size: 1.5rem;
+    width: 6rem;
+}
+
+#fsButton
+{
+    font-size: 1.5rem;
+    width: 10rem;
+}
+
+button[data-playing="yes"]:after
+{
+    content: "Pause";
+}
+
+button[data-playing="no"]:after
+{
+    content: "Play";
+}

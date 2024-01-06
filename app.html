@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Star Wars Audio Visualiser App</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Press+Start+2P&family=Silkscreen&display=swap" rel="stylesheet">
+	<link href="styles/default-styles.css" type="text/css" rel="stylesheet" />
+	<script src="src/app-loader.js" type="module"></script>
+	<script src="src/main.js" type="module"></script>
+</head>
+<body>
+	<section class="section">
+        <div class="container">
+            <div class="px-1 py-1">
+                <div class="has-background-dark mr-1 p-1"> 
+                    <div class="is-large p-4">
+                        <canvas width="800" height="400"></canvas>
+						<div id="controls">
+							<section>
+								<button class="button is-success is-rounded" id="playButton" data-playing="no"></button>
+								<button class="button is-warning is-rounded" id="fsButton">Full Screen</button>
+		
+								<section>
+									Volume: <input type="range" id="volumeSlider" min="0" max="2" value="1" step="0.01">
+									<span id="volumeLabel">50</span>
+								</section>
+							
+								<label>Track: 
+									<select id="trackSelect"></select>
+								</label>
+							</section>
+
+							<section>
+								<label>Gradient Type:
+									<span>
+										<select id="gradientSelect"></select>
+									</span>
+								</label>
+								<span>
+									<input type="checkbox" id="gradientCB" class="checkbox">
+									<label for="gradientCB">Show Gradient</label>
+								</span>
+							</section>
+							
+							<section>
+								<button class="button is-info is-small" id="shipButton">Set Ship Count:</button>
+								<span>
+									<input type="text" id="shipCount">
+								</span>
+								<span>
+									<input type="checkbox" id="shipCB" class="checkbox">
+									<label for="shipCB">Show Ships</label>
+								</span>
+							</section>
+
+							<section>
+								<button class="button is-info is-small" id="starButton">Set Star Count:</button>
+								<span>
+									<input type="text" id="starCount">
+								</span>
+								<span>
+									<input type="checkbox" id="starsCB" class="checkbox">
+									<label for="starsCB">Show Stars</label>
+								</span>
+							</section>
+							
+							<section>
+								<span>
+									<input type="checkbox" id="barsCB" class="checkbox">
+									<label for="barsCB">Show Bars</label>
+								</span>
+								<span>
+									<input type="checkbox" id="circlesCB" class="checkbox">
+									<label for="circlesCB">Show Crest</label>
+								</span>
+								<span>
+									<input type="checkbox" id="distortCB" class="checkbox">
+									<label for="distortCB">Distort Crest</label>
+								</span>
+								<br>
+								<span>
+									<input type="checkbox" id="noiseCB" class="checkbox">
+									<label for="noiseCB">Show Noise</label>
+								</span>
+								<span>
+									<input type="checkbox" id="invertCB" class="checkbox">
+									<label for="invertCB">Show Invert</label>
+								</span>
+								<span>
+									<input type="checkbox" id="enbossCB" class="checkbox">
+									<label for="enbossCB">Show Enboss</label>
+								</span>
+							</section>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<wc-footer></wc-footer>
+</body>
+</html>

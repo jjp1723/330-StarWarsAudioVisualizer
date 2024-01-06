@@ -1,0 +1,17 @@
+{
+    "c9532dc9": {
+          "type": "crestImages",
+          "title": "Crest Images",
+          "imageList": ["Jedi", "Republic", "Rebellion", "New_Republic", "Sith", "CIS", "Empire", "First_Order"]
+    },
+    "69bab900": {
+          "type": "shipImages",
+          "title": "Ship Images",
+          "imageList": ["Delta-7", "ARC-170", "X-Wing", "MG-100", "Scimitar", "Vulture_Droid", "Tie_Fighter", "Tie_Dagger"]
+    },
+    "57a992ba": {
+      "type": "trackNames",
+      "title": "Track Names",
+      "trackList": ["Jedi - The Force", "Jedi - Leia's Theme", "Jedi - Luke and Leia's Theme", "Republic - Begun the Clone War Has", "Republic - The Clone Wars Intro", "Rebellion - Throne Room", "Rebellion - Yub Nub", "New Republic - March of the Resistance", "Sith - Maul and Savage vs Darth Sidious", "Sith - Darth Vader's Rage", "CIS - Droid March", "CIS - General Grievous", "Empire - Imperial Suite", "Empire - Empire Day", "Empire - Imperial March", "First Order - First Order March"]
+    }
+  }

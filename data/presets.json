@@ -1,0 +1,18 @@
+{
+    "c9532dc9": {
+          "type": "gradients",
+          "title": "Gradients",
+          "gradientList": ["Linear Gradient", "Radial Gradient"]
+    },
+    "69bab900": {
+          "type": "checkedBoxes",
+          "title": "Checked Boxes",
+          "checkList": ["gradientCB", "barsCB", "shipCB", "circlesCB", "starsCB"]
+    },
+    "57a992ba": {
+      "type": "textValues",
+      "title": "Text Values",
+      "textList": ["shipCount", "starCount"],
+      "textValues": [3, 4000]
+    }
+  }
